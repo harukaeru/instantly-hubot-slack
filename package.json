@@ -4,6 +4,9 @@
   "private": true,
   "author": "harukaeru <nekoneko.myaomyao@gmail.com>",
   "description": "A simple helpful robot for your Company",
+  "scripts": {
+    "start": "HUBOT_SLACK_TOKEN=[ここに入力してね] ./bin/hubot --adapter slack"
+  },
   "dependencies": {
     "hubot": "^3.3.2",
     "hubot-diagnostics": "^1.0.0",
