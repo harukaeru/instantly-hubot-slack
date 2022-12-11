@@ -8,7 +8,7 @@
     "start": "node server.js & HUBOT_SLACK_TOKEN=[ここに入力してね] ./bin/hubot --adapter slack"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "hubot": "^3.3.2",
     "hubot-diagnostics": "^1.0.0",
     "hubot-google-images": "^0.2.7",
